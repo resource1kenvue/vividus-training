@@ -1,2 +1,29 @@
-{
-}
+
+    {
+        "BUG-001": {
+          "type": "Internal",
+          "assertionPattern":".*www.saucedemo.com.*",
+          "scenarioPattern": ".*Login to the SauceDemo website.*",
+          "stepPattern": ".*is equal to.*",
+          "description": "Issue will be fixed in the upcoming release"
+          }, 
+          
+          "BUG-002": {
+            "type": "Internal",
+            "assertionPattern":".*number of elements is a value equal to.*",
+            "scenarioPattern": ".*Login to the SauceDemo website.*",
+            "stepPattern": ".*is equal to.*",
+            "description": "Issue will be fixed in the upcoming release"
+            },
+
+            "BUG-003": {
+              "type": "Internal",
+              "assertionPattern":".*Thank you for your order!.*",
+              "scenarioPattern": ".*Validate Complete checkout process.*",
+              "stepPattern": ".*is equal to.*",
+              "description": "Issue will be fixed in the upcoming release"
+              }
+      } 
+
+
+
